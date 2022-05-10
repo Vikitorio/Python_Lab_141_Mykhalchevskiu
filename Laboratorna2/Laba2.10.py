@@ -22,3 +22,5 @@ for i in range(3):
         curDepth = curDepth / 10
 
 print(resultDesc)
+
+input()
