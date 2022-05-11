@@ -4,5 +4,5 @@
 intA = int(input("Введіть число А: "))
 intB = int(input("Введіть число B: "))
 
-print("A = ", intB, "\n", "B = ", intB)
+print("A = ", intB, "\n", "B = ", intA)
 input()

@@ -7,8 +7,7 @@
 
 def TriangleP(a ,h):
     tripletSide = ((a/2) ** 2 + h ** 2) ** 0.5
-    print(tripletSide)
-    return tripletSide * 2 + a
+    return round(tripletSide * 2 + a, 5)
 
 for i in range(3):
    a = int(input("Введіть довжину основи a: "))

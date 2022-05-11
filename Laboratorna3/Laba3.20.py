@@ -16,7 +16,7 @@ def FindNumToEps(n):
 
 i = 3
 while i:
-    print(i)
+
     tempNum = FindNumToEps(i)
     tempNumPust = FindNumToEps(i-1)
     if (abs(tempNum - tempNumPust) < userNum):

@@ -9,7 +9,6 @@ elif userNumber > 0:
     resultAnsver = 'Додатне'
 else:
     resultAnsver = 'Відємне'
-print(userNumber % 2)
 if userNumber != 0 and userNumber % 2:
     resultAnsver += " непарне"
 elif userNumber != 0:
